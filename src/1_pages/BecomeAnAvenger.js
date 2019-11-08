@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import Header from "../0_components/1_layout/Header";
 import Footer from "../0_components/1_layout/Footer";
 import BackgroundImg from "../0_components/1_layout/BackgroundImg";
-import Form from "../0_components/2_module/Form";
+import MyForm from "../0_components/2_module/MyForm";
 
 const contentful = require("contentful");
 
@@ -79,7 +79,7 @@ export default class BecomeAnAvenger extends Component {
           }
           bgPosition="40%"
         />
-        <Form />
+        <MyForm />
 
         <Footer />
       </div>

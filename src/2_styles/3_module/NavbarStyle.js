@@ -14,8 +14,7 @@ export const NavbarStyle = styled.div`
     align-items: center;
     justify-content: space-between;
 
-    transition: all 0.3s;
-    background: transparent;
+    transition: 0.3s ease-out;
   }
 
   @media only screen and (min-width: 600px) {

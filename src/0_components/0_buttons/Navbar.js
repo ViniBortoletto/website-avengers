@@ -28,14 +28,9 @@ export default class Navbar extends Component {
       }
 
       if (prevScrollpos > currentScrollPos) {
-        document.getElementById("navbar").style.display = "flex";
         document.getElementById("navbar").style.opacity = "1";
       } else {
         document.getElementById("navbar").style.opacity = "0";
-
-        setTimeout(() => {
-          document.getElementById("navbar").style.display = "none";
-        }, 500);
       }
       prevScrollpos = currentScrollPos;
     });

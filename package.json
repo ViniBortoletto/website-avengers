@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.6.0",
+    "axios": "^0.19.0",
     "contentful": "^7.10.0",
     "formik": "^2.0.3",
     "jquery": "^3.4.1",
     "react": "^16.10.2",
+    "react-autosuggest": "^9.4.3",
     "react-back-to-top-button": "0.0.14",
     "react-dom": "^16.10.2",
     "react-parallax": "^3.0.0-rc2",
