@@ -11,7 +11,6 @@ export default class Section extends Component {
       <div>
         <SectionStyle>
           <BackgroundImg bgImg={bgImg} bgPosition={bgPosition} />
-
           <div className="text">
             <div className="title">{title}</div>
             <div className="description">{description}</div>

@@ -6,6 +6,14 @@ export const MyFormStyle = styled.div`
     padding: 80vh 5vw 0 5vw;
   }
 
+  /* ALL INPUTS ------------------------------------------- */
+
+  input:-internal-autofill-previewed,
+  input:-internal-autofill-selected {
+    -webkit-transition-delay: 99999s;
+    -webkit-text-fill-color: #f0f0f0;
+  }
+
   .input_row {
     width: 100%;
 
@@ -15,26 +23,63 @@ export const MyFormStyle = styled.div`
   }
 
   .input_title {
+    width: 100%;
+
     font-size: 1.2rem;
     font-family: "cormorant infant", serif;
-    width: 100%;
   }
 
   input {
     padding: 0.5rem 0 0.5rem 0;
-    background: linear-gradient(to right, #f0f0f0, transparent) left bottom
-      no-repeat;
-    background-size: 100% 1px;
+
+    background: transparent;
+    border-bottom: 1px solid #f0f0f0;
+
     font-size: 1rem;
     font-family: "roboto", sans-serif;
     font-weight: 100;
     text-transform: uppercase;
 
     ::placeholder {
-      color: #c7c7c7;
+      color: #555555;
     }
   }
 
+  /* input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+  } */
+
+  /* COUNTRY ------------------------------------------- */
+  #react-autowhatever-1 {
+    position: absolute;
+    z-index: 100;
+    width: calc(100% - 10%);
+  }
+
+  #country {
+    width: 100%;
+  }
+
+  .react-autosuggest__suggestions-list {
+    border: 1px solid #333333;
+  }
+
+  .suggested_contries {
+    cursor: pointer;
+    background: #212121;
+    border-bottom: 1px solid #333333;
+
+    padding: 1rem;
+
+    &:hover {
+      background: #333333;
+    }
+  }
+
+  /* RETIRED HUMAN ------------------------------------------- */
   .input_row.retiredHuman {
     flex-direction: row;
     flex-wrap: wrap;
@@ -52,6 +97,7 @@ export const MyFormStyle = styled.div`
     margin-right: 0.5rem;
   }
 
+  /* RADIO BUTTONS (RETIRED HUMAN) ------------------------------------------- */
   .MuiIconButton-colorSecondary:hover,
   .MuiRadio-colorSecondary.Mui-checked:hover {
     background: transparent;
@@ -70,6 +116,7 @@ export const MyFormStyle = styled.div`
     font-weight: 100;
   }
 
+  /* SUBMIT BUTTON ------------------------------------------- */
   .btn_submit-box {
     width: 100%;
 
@@ -102,18 +149,7 @@ export const MyFormStyle = styled.div`
   }
 
   .input_error {
-    background: linear-gradient(to right, crimson, transparent) left bottom
-      no-repeat;
-    background-size: 100% 1px;
-  }
-
-  .form_error-message {
-    margin-top: 0.5rem;
-
-    font-size: 0.7rem;
-    font-weight: 300;
-
-    color: crimson;
+    border-bottom: 1px solid red;
   }
 
   @media only screen and (min-width: 1000px) {
@@ -139,8 +175,8 @@ export const MyFormStyle = styled.div`
       font-size: 1.5rem;
     }
 
-    .form_error-message {
-      font-size: 1rem;
+    #react-autowhatever-1 {
+      width: calc(100% - 30%);
     }
   }
 `;
