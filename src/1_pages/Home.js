@@ -14,8 +14,8 @@ export default class Home extends Component {
             <div className="bgImg"></div>
             <div className="bgLogo"></div>
             <div className="title">
-              <p>the</p>
-              <p>avengers</p>
+              {/* <p>the</p> */}
+              {/* <p>avengers</p> */}
             </div>
           </div>
         </HomeStyle>
