@@ -16,7 +16,6 @@ export default class Home extends Component {
             <div className="title">
               <p>the</p>
               <p>avengers</p>
-              <div className="line"></div>
             </div>
           </div>
         </HomeStyle>
