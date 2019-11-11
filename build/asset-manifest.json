@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.a41a89d2.chunk.js",
-    "main.js.map": "/static/js/main.a41a89d2.chunk.js.map",
+    "main.js": "/static/js/main.cdbdfac5.chunk.js",
+    "main.js.map": "/static/js/main.cdbdfac5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4765d705.js",
     "runtime-main.js.map": "/static/js/runtime-main.4765d705.js.map",
     "static/js/2.c20865f7.chunk.js": "/static/js/2.c20865f7.chunk.js",
     "static/js/2.c20865f7.chunk.js.map": "/static/js/2.c20865f7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ad9224eaa9ce354177b7d0c8074d8018.js": "/precache-manifest.ad9224eaa9ce354177b7d0c8074d8018.js",
+    "precache-manifest.9837b9fe7973821e1daed3c8d333c3e4.js": "/precache-manifest.9837b9fe7973821e1daed3c8d333c3e4.js",
     "service-worker.js": "/service-worker.js",
     "static/media/bg_home.jpg": "/static/media/bg_home.9bad0c09.jpg",
     "static/media/icon_footer-vbLogo.png": "/static/media/icon_footer-vbLogo.4ee28210.png",
@@ -16,6 +16,6 @@
   "entrypoints": [
     "static/js/runtime-main.4765d705.js",
     "static/js/2.c20865f7.chunk.js",
-    "static/js/main.a41a89d2.chunk.js"
+    "static/js/main.cdbdfac5.chunk.js"
   ]
 }

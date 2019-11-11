@@ -8,7 +8,7 @@ export const NavbarStyle = styled.div`
     left: 0;
 
     width: 100%;
-    height: 10vh;
+    height: 20vh;
 
     display: flex;
     align-items: center;

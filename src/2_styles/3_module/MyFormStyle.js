@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const MyFormStyle = styled.div`
   #myForm {
-    height: 140vh;
+    /* height: 140vh; */
+    margin-bottom: 10rem;
     padding: 80vh 5vw 0 5vw;
   }
 

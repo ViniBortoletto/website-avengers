@@ -5,7 +5,7 @@ export const TheOriginalSixStyle = styled.div`
     width: 100%;
 
     position: absolute;
-    bottom: 4.5rem;
+    bottom: 2rem;
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -15,7 +15,6 @@ export const TheOriginalSixStyle = styled.div`
   .icons_img {
     width: 3rem;
     height: 3rem;
-
     cursor: pointer;
 
     opacity: 0.5;
